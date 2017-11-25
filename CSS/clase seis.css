@@ -7,6 +7,9 @@ body {
 	background-color:#000;
 	color: #E57661;
 }
+a{
+	text-decoration: none;
+}
 .wrapper{
 	margin: 0 auto;
 	max-width: 1024px;
@@ -16,10 +19,16 @@ body {
 h2{
 	color: #F8E7A2;
 }
+main#main-wrapper{
+	margin-top: 80px;
+}
 nav {
 	background-color: white;
 	color:#000;
 	height:36px;
+	position: fixed;
+	width:100%;
+	top:0px;
 }
 nav ul li a {
 	color: red;
@@ -31,4 +40,6 @@ nav ul li a {
 nav li{
 	width: 33.33333%;
 	float:left;
+	list-style: none;
+	padding: 9px;
 }
